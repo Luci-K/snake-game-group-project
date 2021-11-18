@@ -26,7 +26,46 @@ int main()
         {
             if (event.type == sf::Event::Closed)
                 window.close();
+
+            else if (event.type == sf::Event::KeyPressed) {
+                switch (event.key.code) {
+                    case sf::Keyboard::Key::W:
+                        std::cout << "Forward" << std::endl;
+                        break;
+
+                    case sf::Keyboard::Key::Up:
+                        std::cout << "Forward" << std::endl;
+                        break;
+
+                    case sf::Keyboard::Key::A:
+                        std::cout << "Left" << std::endl;
+                        break;
+
+                    case sf::Keyboard::Key::Left: 
+                        std::cout << "Left" << std::endl;
+                        break;
+
+                    case sf::Keyboard::Key::S:
+                        std::cout << "Back" << std::endl;
+                        break;
+
+                    case sf::Keyboard::Key::Down: 
+                        std::cout << "Back" << std::endl;
+                        break;
+
+                    case sf::Keyboard::Key::D:
+                        std::cout << "Right" << std::endl;
+                        break;
+
+                    case sf::Keyboard::Key::Right: 
+                        std::cout << "Right" << std::endl;
+                        break;
+                    
+                }
+            }
         }
+
+
 
 #pragma endregion
         
@@ -42,16 +81,9 @@ int main()
         // dividing window size by 2 places our snake in the centre
 #pragma endregion 
 
-#pragma region Key Press Events
-        // checks if a key on the keyboard was pressed, and if it was, checks *which* key was pressed
-        if (event.type == sf::Event::KeyPressed) {                                                                     
-            if (event.key.code == sf::Keyboard::Key::W || event.key.code == sf::Keyboard::Key::Up) {    
-                // make that bih move forward 
-                // this code might get messy - look into using switches instead of if/else
-            }
-}
-#pragma endregion
-        
+
+
+              
         window.clear(sf::Color(255, 180, 130));                           // Clear graphics buffer
         window.draw(horiBorder_top);
         window.draw(horiBorder_bottom);

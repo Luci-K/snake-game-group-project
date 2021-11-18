@@ -1,6 +1,5 @@
-﻿  graphPoints.cpp
-  main.cpp
-C:\code stuff\C++ Group Project\SFML\main.cpp(32,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+﻿  main.cpp
+D:\coding tings\c++\c++ group project\SFML\main.cpp(34,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -9,21 +8,12 @@ C:\code stuff\C++ Group Project\SFML\main.cpp(32,63): warning C4244: 'argument':
           [
               T=float
           ]
-C:\code stuff\C++ Group Project\SFML\main.cpp(32,166): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\coding tings\c++\c++ group project\SFML\main.cpp(34,166): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-C:\code stuff\C++ Group Project\SFML\main.cpp(33,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\code stuff\C++ Group Project\SFML\main.cpp(34,64): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\coding tings\c++\c++ group project\SFML\main.cpp(35,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -32,7 +22,7 @@ C:\code stuff\C++ Group Project\SFML\main.cpp(34,64): warning C4244: 'argument':
           [
               T=float
           ]
-C:\code stuff\C++ Group Project\SFML\main.cpp(35,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\coding tings\c++\c++ group project\SFML\main.cpp(36,64): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -41,12 +31,30 @@ C:\code stuff\C++ Group Project\SFML\main.cpp(35,65): warning C4244: 'argument':
           [
               T=float
           ]
-C:\code stuff\C++ Group Project\SFML\main.cpp(35,167): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\coding tings\c++\c++ group project\SFML\main.cpp(37,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
           ]
-  Generating Code...
+          and
+          [
+              T=float
+          ]
+D:\coding tings\c++\c++ group project\SFML\main.cpp(37,167): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+D:\coding tings\c++\c++ group project\SFML\main.cpp(41,159): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+D:\coding tings\c++\c++ group project\SFML\main.cpp(41,144): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
 main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
 main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) referenced in function main
 main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) referenced in function main
@@ -67,10 +75,10 @@ main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) publ
 main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ) referenced in function main
 main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual class sf::Vector2<unsigned int> __cdecl sf::RenderWindow::getSize(void)const " (__imp_?getSize@RenderWindow@sf@@UEBA?AV?$Vector2@I@2@XZ) referenced in function main
 main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B) referenced in function main
-C:\code stuff\C++ Group Project\\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\code stuff\C++ Group Project\\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\code stuff\C++ Group Project\\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\code stuff\C++ Group Project\\lib\sfml-main-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\code stuff\C++ Group Project\\lib\sfml-network-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\code stuff\C++ Group Project\\lib\sfml-audio-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
-C:\code stuff\C++ Group Project\x64\Debug\SFML_Graphics.exe : fatal error LNK1120: 20 unresolved externals
+D:\coding tings\c++\c++ group project\\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\coding tings\c++\c++ group project\\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\coding tings\c++\c++ group project\\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\coding tings\c++\c++ group project\\lib\sfml-main-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\coding tings\c++\c++ group project\\lib\sfml-network-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\coding tings\c++\c++ group project\\lib\sfml-audio-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\coding tings\c++\c++ group project\x64\Debug\SFML_Graphics.exe : fatal error LNK1120: 20 unresolved externals
