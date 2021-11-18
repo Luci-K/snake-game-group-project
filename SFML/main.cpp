@@ -4,9 +4,11 @@
 * SFML Shapes Tutorials https://www.sfml-dev.org/tutorials/2.5/graphics-shape.php
 * SGML Graphics tutorial https://gamefromscratch.com/sfml-c-tutorial-basic-graphics/
 */
+
 #include <iostream>                                                     // std namespace
 #include <SFML/Graphics.hpp>                                            // sf namespace 
-#include "graphPoints.h"
+
+// to do: have the key press events code, window border creation code, and snake code in separate functions in other .cpp/.h files which are called here in main. 
 
 int main()
 {
@@ -39,6 +41,16 @@ int main()
         sf::RectangleShape slitheryBoi(sf::Vector2f(20, 20)); slitheryBoi.setFillColor(sf::Color(1, 79, 2)); slitheryBoi.setPosition(winSize.x / 2, winSize.y / 2);  
         // dividing window size by 2 places our snake in the centre
 #pragma endregion 
+
+#pragma region Key Press Events
+        // checks if a key on the keyboard was pressed, and if it was, checks *which* key was pressed
+        if (event.type == sf::Event::KeyPressed) {                                                                     
+            if (event.key.code == sf::Keyboard::Key::W || event.key.code == sf::Keyboard::Key::Up) {    
+                // make that bih move forward 
+                // this code might get messy - look into using switches instead of if/else
+            }
+}
+#pragma endregion
         
         window.clear(sf::Color(255, 180, 130));                           // Clear graphics buffer
         window.draw(horiBorder_top);

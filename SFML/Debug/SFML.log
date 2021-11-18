@@ -1,7 +1,6 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFML_Points.vcxproj, SFML_Test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  graphPoints.cpp
   main.cpp
-D:\coding tings\c++\c++ group project\SFML\main.cpp(32,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\coding tings\c++\c++ group project\SFML\main.cpp(33,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -10,21 +9,12 @@ D:\coding tings\c++\c++ group project\SFML\main.cpp(32,63): warning C4244: 'argu
           [
               T=float
           ]
-D:\coding tings\c++\c++ group project\SFML\main.cpp(32,166): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\coding tings\c++\c++ group project\SFML\main.cpp(33,166): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-D:\coding tings\c++\c++ group project\SFML\main.cpp(33,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=unsigned int
-          ]
-          and
-          [
-              T=float
-          ]
-D:\coding tings\c++\c++ group project\SFML\main.cpp(34,64): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\coding tings\c++\c++ group project\SFML\main.cpp(34,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -33,7 +23,7 @@ D:\coding tings\c++\c++ group project\SFML\main.cpp(34,64): warning C4244: 'argu
           [
               T=float
           ]
-D:\coding tings\c++\c++ group project\SFML\main.cpp(35,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+D:\coding tings\c++\c++ group project\SFML\main.cpp(35,64): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -42,21 +32,28 @@ D:\coding tings\c++\c++ group project\SFML\main.cpp(35,65): warning C4244: 'argu
           [
               T=float
           ]
-D:\coding tings\c++\c++ group project\SFML\main.cpp(35,167): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\coding tings\c++\c++ group project\SFML\main.cpp(36,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
           ]
-D:\coding tings\c++\c++ group project\SFML\main.cpp(39,159): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          and
+          [
+              T=float
+          ]
+D:\coding tings\c++\c++ group project\SFML\main.cpp(36,167): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-D:\coding tings\c++\c++ group project\SFML\main.cpp(39,144): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+D:\coding tings\c++\c++ group project\SFML\main.cpp(40,159): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int
           ]
-  Generating Code...
-  LINK : D:\coding tings\c++\c++ group project\Debug\SFML_Graphics.exe not found or not built by the last incremental link; performing full link
+D:\coding tings\c++\c++ group project\SFML\main.cpp(40,144): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
   SFML.vcxproj -> D:\coding tings\c++\c++ group project\Debug\SFML_Graphics.exe
