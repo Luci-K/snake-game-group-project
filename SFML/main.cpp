@@ -35,11 +35,17 @@ int main()
         sf::RectangleShape vertBorder_right(sf::Vector2f(winSize.x, 10)); vertBorder_right.setFillColor(sf::Color(176, 11, 105)); vertBorder_right.setPosition(winSize.x, 10); vertBorder_right.setRotation(90);
 #pragma endregion 
 
+#pragma region Snake Create.....
+        sf::RectangleShape slitheryBoi(sf::Vector2f(20, 20)); slitheryBoi.setFillColor(sf::Color(1, 79, 2)); slitheryBoi.setPosition(winSize.x / 2, winSize.y / 2);  
+        // dividing window size by 2 places our snake in the centre
+#pragma endregion 
+        
         window.clear(sf::Color(255, 180, 130));                           // Clear graphics buffer
         window.draw(horiBorder_top);
         window.draw(horiBorder_bottom);
         window.draw(vertBorder_left);
         window.draw(vertBorder_right);
+        window.draw(slitheryBoi);
         window.display();                                               // Display the graphics from the buffer to the display
         
     }

@@ -46,4 +46,14 @@ C:\code stuff\C++ Group Project\SFML\main.cpp(35,167): warning C4244: 'argument'
           [
               T=unsigned int
           ]
+C:\code stuff\C++ Group Project\SFML\main.cpp(39,159): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\code stuff\C++ Group Project\SFML\main.cpp(39,144): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
   SFML.vcxproj -> C:\code stuff\C++ Group Project\Debug\SFML_Graphics.exe
