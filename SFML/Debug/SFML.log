@@ -1,6 +1,6 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SFML_Points.vcxproj, SFML_Test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   main.cpp
-C:\code stuff\C++ Group Project\SFML\main.cpp(32,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\code stuff\C++ Group Project\SFML\main.cpp(32,63): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
           with
           [
               T=unsigned int
@@ -9,7 +9,39 @@ C:\code stuff\C++ Group Project\SFML\main.cpp(32,65): warning C4244: 'argument':
           [
               T=float
           ]
-C:\code stuff\C++ Group Project\SFML\main.cpp(32,172): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\code stuff\C++ Group Project\SFML\main.cpp(32,166): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\code stuff\C++ Group Project\SFML\main.cpp(33,66): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\code stuff\C++ Group Project\SFML\main.cpp(34,64): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\code stuff\C++ Group Project\SFML\main.cpp(35,65): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\code stuff\C++ Group Project\SFML\main.cpp(35,167): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=unsigned int

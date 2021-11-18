@@ -29,12 +29,17 @@ int main()
 #pragma endregion
         
 #pragma region Create Window Border
-        sf::RectangleShape horizontalborder(sf::Vector2f(winSize.x, 10)); horizontalborder.setFillColor(sf::Color(176, 11, 105)); horizontalborder.setPosition(0, winSize.y-800);
-        
+        sf::RectangleShape horiBorder_top(sf::Vector2f(winSize.x, 10)); horiBorder_top.setFillColor(sf::Color(176, 11, 105)); horiBorder_top.setPosition(0, winSize.y-800);
+        sf::RectangleShape horiBorder_bottom(sf::Vector2f(winSize.x, 10)); horiBorder_bottom.setFillColor(sf::Color(176, 11, 105)); horiBorder_bottom.setPosition(0, 790); 
+        sf::RectangleShape vertBorder_left(sf::Vector2f(winSize.x, 10)); vertBorder_left.setFillColor(sf::Color(176, 11, 105)); vertBorder_left.setPosition(10, 10); vertBorder_left.setRotation(90);
+        sf::RectangleShape vertBorder_right(sf::Vector2f(winSize.x, 10)); vertBorder_right.setFillColor(sf::Color(176, 11, 105)); vertBorder_right.setPosition(winSize.x, 10); vertBorder_right.setRotation(90);
 #pragma endregion 
 
-        window.clear();                                                 // Clear graphics buffer
-        window.draw(horizontalborder);
+        window.clear(sf::Color(255, 180, 130));                           // Clear graphics buffer
+        window.draw(horiBorder_top);
+        window.draw(horiBorder_bottom);
+        window.draw(vertBorder_left);
+        window.draw(vertBorder_right);
         window.display();                                               // Display the graphics from the buffer to the display
         
     }
