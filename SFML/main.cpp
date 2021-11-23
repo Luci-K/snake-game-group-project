@@ -30,7 +30,7 @@ int main()
             else if (event.type == sf::Event::KeyPressed) {
                 switch (event.key.code) {
                     case sf::Keyboard::Key::W:
-                        std::cout << "Forward" << std::endl;
+                        std::cout << "Forward" << std::endl;  // make the snake actually move n shit with slitheryBoi.move [number].f 
                         break;
 
                     case sf::Keyboard::Key::Up:
