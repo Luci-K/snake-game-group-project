@@ -17,7 +17,8 @@ int main()
     window.setVerticalSyncEnabled(true);
     sf::Vector2u winSize = window.getSize();
 #pragma endregion
-    
+    std::cout << "Use WASD or the arrow keys to move" << std::endl;
+
     while (window.isOpen())                                             // This is the Windows application loop - infinite loop until closed
     {
 #pragma region Check for Exit
